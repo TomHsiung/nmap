@@ -1,3 +1,6 @@
 # Send TCP SYN packets to invoke RST or SYN/ACK echo. Examples,
 
+Examples,
+
 nmap -SP80-443 -sn -v -T4 1.1.0-255.0-255
+nmap -sS -p80 192.168.0.0./24
