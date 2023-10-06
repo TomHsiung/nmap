@@ -2,5 +2,5 @@
 
 Examples,
 
-nmap -SP80-443 -sn -v -T4 1.1.0-255.0-255
-nmap -sS -p80 192.168.0.0./24
+nmap -Pn -PS -p 443 192.168.1.1
+nmap -Pn -PA -p 443 192.168.1.1
