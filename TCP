@@ -4,3 +4,4 @@ Examples,
 
 nmap -Pn -PS -p 443 192.168.1.1
 nmap -Pn -PA -p 443 192.168.1.1
+nmap -sn -PS22 -PA22 192.168.1.1
